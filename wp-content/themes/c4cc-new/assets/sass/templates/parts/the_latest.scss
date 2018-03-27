@@ -1,0 +1,39 @@
+#the-latest {
+  .container {
+      h2 { 
+        font-family: $base-font-family;
+        font-size: 3.15em;
+      }  
+  }
+
+  .post-story {
+    color: $legacy-black;
+  }
+  padding-top: 5px;
+  .container {
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 80px;
+    .row {
+      margin: 0;
+      .cover-post {
+        padding: 0;
+        .cp-container {
+          /*padding: 3em 3.125em;*/
+          padding: 30px 45px;
+          height: 375px !important;
+          background-color: rgba(0,0,0,0.35);
+          .cpc-metas {
+            color: $ccc-orange;
+          }
+        }
+        &:hover, &:focus {
+          .cp-container {
+            @include border-inside(#fff, 4px);
+            background-color: rgba(0,0,0,.65);
+          }
+        }
+      }
+    }
+  }
+}

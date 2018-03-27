@@ -1,0 +1,44 @@
+{
+    "key": "group_579bc46d3aeb7",
+    "title": "Footer",
+    "fields": [
+        {
+            "key": "field_52278ff8729b0",
+            "label": "Copyright area",
+            "name": "copyright",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "tabs": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": 1,
+    "description": "",
+    "old_ID": 85,
+    "local": "php",
+    "modified": 1507134483
+}

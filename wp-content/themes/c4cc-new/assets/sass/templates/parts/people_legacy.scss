@@ -1,0 +1,415 @@
+/* =Staff/Board/Advisory Council
+----------------------------------------------- */
+#primary {
+	padding-top: 70px;
+	.site-content {
+		.people {
+			position: relative;
+		}
+		.fellowship {
+			.entry-content {
+				padding-left: 35px;
+				.team ul {
+					padding: 0 0 0 35px;
+					right: 35px;
+				}
+			}
+		}
+		.entry-header {
+			color: $legacy-black;
+			font-family: $base-light-font;
+			font-size: $default-title-size;
+			h1 {
+				color: $legacy-fade-green;
+			}
+			.menu {
+				list-style: none;
+				float: right;
+				margin: 0;
+				background: #ebedec;
+				height: 66px;
+				width: 60%;
+
+				li {
+					float: left;
+					width: 25%;
+					text-align: center;
+					margin: 38px 0px 0;
+					font-size: 1rem;
+
+					a {
+						color: $ccc-blue;
+						font-size: $default-p-size;
+						font-family: $legacy-subtitle;
+					}
+				}
+
+				a {
+					color: $legacy-black;
+					font-family: $small-size;
+				}
+				a:hover {
+					background: url(images/nav_active.png) center bottom no-repeat;
+				}
+			}
+		}
+		#people-nav, #career-nav, #focus-nav {
+			position: absolute;
+			top: 220px;
+			list-style: none;
+			margin: -105px;
+			width: 145px;
+			z-index: 50;
+			padding-top: 125px;
+			font-size: 1.2em;
+			li {
+				margin-bottom: 12px;
+			}
+			.council {
+				margin-top: 0px;
+			}
+
+			a {
+				display: block;
+				padding: 10px 8px;
+				background: #E2E3E4;
+				color: #67686A;
+				font-size: 0.85em;
+				font-family: $legacy-subtitle;
+			}
+			a:hover {
+				background: #F8A435;
+				color: #fff;
+			}
+			.current {
+				a {
+					background: #F8A435;
+					color: #fff;
+				}
+			}
+		}
+		.entry-content {
+			position: relative;
+			margin-bottom: 60px;
+			margin-top: 20px;
+			.entry-content-inner-container {
+				margin-left: 30px;
+			}
+			.team {
+				clear: both;
+				padding-left: 90px;
+				ul {
+					width: 100%;
+					list-style: none;
+					position: relative;
+					padding: 0 45px 0 105px;
+					margin: 20px 0 0 0;
+					clear: both;
+					right: 105px;;
+					text-align: center;
+				}
+
+				h2 {
+					color: #66686A;
+					display: inline;;
+				}
+				li {
+					display: inline-block;
+					//float: left;
+					width: 205px;
+					height: 205px !important;
+					max-height: 205px !important;
+					margin: 0 24px 36px 0;
+					.name-overlay {
+						color: transparent;
+						/*font: 26px/26px 'GnuolaneFree';*/
+						text-align: center;
+						padding: 102px 0 103px;
+						height: 0px;
+						overflow: visible;
+						display: block;
+						background: none;
+						overflow: hidden;
+						-webkit-transition: all 0.5s ease;
+						-moz-transition:  all 0.5s ease;
+						-o-transition:  all 0.5s ease;
+						transition:  all 0.5s ease;
+						position: relative;
+						span {
+							position: absolute;
+							top: 89px;
+							width: 205px;
+							left: 0;
+						}
+					}
+					.name-overlay:hover {
+						text-indent: 0;
+						color: #fff;
+						background: #F8A435;
+						background: rgba(248,164,53,0.8);
+						cursor: pointer;
+					}
+					.staff-bio {
+						width: 0;
+						background: #E0E1E3;
+						position: absolute;
+						left: 0;
+						margin: -205px 0 0;
+						overflow: hidden;
+						z-index: 500;
+						min-height: 460px;
+						text-align: left;
+					}
+					.staff-left {
+						position: absolute;
+						top: 35px;
+						left: 35px;
+						h3 {
+							margin:0px;
+							font-size: $default-h3-size;
+						}
+
+						.img-block {
+							display: block;
+							width: 205px;
+							height: 205px;
+							margin-bottom: 5px;
+							background: #F3F3F4;
+						}
+
+						a {
+							display: block;
+							font-size: 0.75em;
+							color: #fff;
+							text-transform: uppercase;
+							background: #F8A535;
+							text-align: center;
+						}
+					}
+
+					.staff-right {
+						margin: 40px 35px 35px 275px;
+						max-width: 750px;
+
+						h3 {
+							color: $ccc-blue;
+							font-family: $legacy-title;
+							margin: 0px;
+							font-size: $default-h3-size;
+						}
+						.staff-title, .staff-org {
+							font-family: $base-font-family;
+							color: $legacy-fade-green;
+							font-size: $default-p-size;
+						}
+
+						.email {
+							font-size: 1rem;
+							font-style: italic;
+							margin: 12px 0;
+
+							a {
+								color: #67686A;
+
+							}
+							a:hover {
+								color: #4D4D4F;
+							}
+						}
+					}
+				}
+			}
+			.team-nav,
+			.team-nav:visited {
+				width: 205px;
+				display: block;
+				float: left;
+				font-family: $legacy-title;
+				font-size: $base-font-size;
+				text-align: center;
+				background: #E1E2E3;
+				color: #66686A;
+				padding: 10px 0 8px;
+				margin: 0 35px 25px 0;
+			}
+			.team-nav.last {
+				margin-right: 0;
+			}
+			.team-nav:hover,
+			.team-nav:active {
+				color: #fff;
+				background: #F6A244;
+			}
+
+			.back-top {
+				color: #fff;
+				background: #FFA300;
+				padding: 8px 12px;
+				text-align: center;
+				float: right;
+			}
+			.back-top:hover {
+				background: #5D5E61;
+			}
+		}
+	}
+}
+
+
+
+.close-btn {
+	position: absolute;
+	right: 30px; top: 20px;
+	padding-right: 42px;
+	background: #E0E1E3;
+	border: none;
+	font: 22px Helvetica;
+	text-transform: uppercase;
+	color: #67686A;
+	cursor: pointer;
+}
+.close-btn:before, .close-btn:after{ content: ''; position: absolute; right: 0; 	top: 11px; width: 30px; height: 1px; background: #67686A; }
+.close-btn:before{ -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); }
+.close-btn:after{-webkit-transform: rotate(315deg); -moz-transform: rotate(315deg); -ms-transform: rotate(315deg); -o-transform: rotate(315deg); }
+
+/* section added by tf 8-25-15 for advisory council social buttons */
+.ac-social a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.ac-social a:hover {
+	opacity: 0.7;
+}
+.ac-social .twitter {
+	background: url(images/ac-twitter-icon.jpg) no-repeat;
+	background-position: 0 0;
+	margin-right: 10px;
+}
+.ac-social .facebook {
+	background: url(images/ac-facebook-icon.jpg) no-repeat;
+	background-position: 0 0;
+	margin-right: 10px;
+}
+.ac-social .instagram {
+	background: url(images/ac-instagram-icon.jpg) no-repeat;
+	background-position: 0 0;
+}
+.ac-bio {
+	width: 0;
+	background: #E0E1E3;
+	position: absolute;
+	left: 0;
+	text-align: left;
+	margin: -205px 0 0;
+	overflow: hidden;
+	z-index: 500;
+	min-height: 460px;
+}
+.team .mobile-dropper {
+	display: none;
+}
+@media screen and (max-width: 799px) {
+	.site-content.people {
+		position: relative;
+	}
+	.site-content.people .entry-content {
+		padding: 25px;
+	}
+	.site-content.people.fellowship .entry-content {
+		padding-left: 35px;
+	}
+
+	#people-nav {
+		padding-top: 90px;
+	}
+	.team-nav,
+	.team-nav:visited {
+		width: auto;
+		padding: 10px 10px 8px;
+		margin: 0 25px 15px 0;
+	}
+	.team ul {
+		width: 100%;
+		padding: 0 25px 0 25px;
+		margin: 20px 0 0 0;
+		clear: both;
+		right: 25px;;
+	}
+	.fellowship .team ul {
+		padding: 0 0 0 35px;
+		right: 35px;;
+	}
+	.staff-left {
+		top: 60px;
+	}
+	.staff-right {
+		margin: 60px 35px 35px 275px;
+	}
+	.staff-right h3 {
+		line-height: 28px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.staff-team .mobile-dropper {
+		background: #66686a url(images/sub_drop.png) right center no-repeat;
+		display: block;
+		border: none;
+		margin: 0;
+		font: 21px/25px 'GnuolaneFree';
+		color: #fff;
+		text-align: left;
+		padding: 14px 20px;
+		width: 100%;
+	}
+	.staff-team .team-list {
+		height: 0;
+		overflow: hidden;
+    	-webkit-transition: height 2s; /* Safari */
+    	transition: height 2s;
+
+	}
+	.staff-team .team-list.show {
+	  height: auto;
+	}
+	.team-nav,
+	.team h2,
+ 	.team .back-top {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 599px) {
+	.staff-left {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 35px;
+	}
+	.staff-left .img-block,
+	.staff-left img {
+		width: 150px;
+		height: 150px;
+	}
+	.staff-right {
+		clear: both;
+		margin: 0 35px;
+		position: relative;
+	}
+	.staff-bio {
+		width: 0;
+		background: #E0E1E3;
+		position: fixed;
+		left: 0;
+		top: 0;
+		height: 100%;
+		margin: 0 0;
+		overflow: hidden;
+		z-index: 500;
+		min-height: 460px;
+		text-align: left;
+	}
+}

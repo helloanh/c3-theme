@@ -1,0 +1,34 @@
+.search-bar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  select {
+    color: #144B7D;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 5px;
+  }
+  select, input[type="submit"] {
+    width: 100%;
+    background-color: $ccc-orange;
+    color: $main-text-color;
+    border: 0;
+    padding: 7px;
+  }
+  > div:nth-child(2) {
+    padding-right: 0;
+  }
+  > div:nth-child(3) {
+    padding-left: 0;
+  }
+}
+.no-search-result {
+  background-color: #fff;
+  font-size: 24px;
+  font-family: $base-semibold-font;
+  padding: 40px;
+  text-align: center;
+  width: 320px;
+  color: $ccc-orange;
+  margin: 0 auto;
+}
+

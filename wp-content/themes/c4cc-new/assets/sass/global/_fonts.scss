@@ -1,0 +1,35 @@
+// Source Sans Pro font-face
+@include font-face("SourceSansProBlack", $relPath + "sourcesanspro/SourceSansPro-Black");
+@include font-face("SourceSansProBlackIt", $relPath + "sourcesanspro/SourceSansPro-BlackIt");
+@include font-face("SourceSansProBlackItalic", $relPath + "sourcesanspro/SourceSansPro-BlackItalic");
+@include font-face("SourceSansProBold", $relPath + "sourcesanspro/SourceSansPro-Bold");
+@include font-face("SourceSansProBoldIt", $relPath + "sourcesanspro/SourceSansPro-BlackIt");
+@include font-face("SourceSansProBoldExtraLight", $relPath + "sourcesanspro/SourceSansPro-ExtraLight");
+@include font-face("SourceSansProBoldIt", $relPath + "sourcesanspro/SourceSansPro-It");
+@include font-face("SourceSansProBoldItalic", $relPath + "sourcesanspro/SourceSansPro-Italic");
+@include font-face("SourceSansProLight", $relPath + "sourcesanspro/SourceSansPro-Light");
+@include font-face("SourceSansProLightItalic", $relPath + "sourcesanspro/SourceSansPro-LightItalic");
+@include font-face("SourceSansPro", $relPath + "sourcesanspro/SourceSansPro-Regular");
+@include font-face("SourceSansProSemibold", $relPath + "sourcesanspro/SourceSansPro-Semibold");
+@include font-face("SourceSansProSemiboldIt", $relPath + "sourcesanspro/SourceSansPro-SemiboldIt");
+@include font-face("SourceSansProSemiboldItalic", $relPath + "sourcesanspro/SourceSansPro-SemiboldItalic");
+
+
+
+// Bodega Sans medium font-face
+@include font-face("BodegaLight", $relPath + "bodegasansall/hinted-BodegaSansLight");
+@include font-face("BodegaMedium", $relPath + "bodegasansall/hinted-BodegaSansMediumSmallcaps");
+
+// BebasNeue font-face
+@include font-face("BebasNeue", $relPath + "bebas/BebasNeue-webfont", null, null, eot woff ttf svg);
+
+// Gnuolane font-face
+@include font-face("Gnuolane", $relPath + "gnuolane/gnuolane_free-webfont");
+
+// Change Wire font-face
+@include font-face("Goldana Base", $relPath + "goldana/GoldanaBase");
+@include font-face("Goldana Drop Stripes", $relPath + "goldana/GoldanaDropStripes");
+
+
+
+

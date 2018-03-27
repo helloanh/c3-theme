@@ -1,0 +1,16 @@
+$complete : #48b0f7;
+$success  : #10cfbd;
+$danger   : #f55753;
+$warning  : #f8d053;
+
+$complete_lighter : lighten($complete, 5%);
+$success_lighter  : lighten($success, 5%);
+$danger_lighter   : lighten($danger, 5%);
+$warning_lighter  : lighten($warning, 5%);
+
+$complete_darken : darken($complete, 14%);
+$success_darken  : darken($success, 8%);
+$danger_darken   : darken($danger, 14%);
+$warning_darken  : darken($warning, 14%);
+
+$relPath : '../../assets/fonts/';

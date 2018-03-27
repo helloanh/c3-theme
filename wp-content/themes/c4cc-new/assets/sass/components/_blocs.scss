@@ -1,0 +1,91 @@
+.cover-post {
+  @include background-size();
+  background-color: $ccc-blue;
+  position: relative;
+  @include transition(.1s);
+  &.cp-not-full {
+    margin-bottom: 30px;
+  }
+  .cp-shadow {
+    z-index: 1;
+    position: absolute;
+    @include opacity();
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .cp-container {
+    padding: 30px 45px;
+    min-height: 470px;
+    z-index: 102;
+    .cpc-metas {
+      a {
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0 5px 5px 0;
+        color: $ccc-orange;
+        font-weight: bold;
+      }
+      &.cp-metas-bg a {
+        background-color: #fff;
+        color: $ccc-blue;
+        padding: 2px 5px;
+      }
+      &.cp-metas-absolute {
+        position: absolute;
+        top: 0; left: 0;
+        padding: 0 20px;
+      }
+    }
+    .cpc-title {
+      font-size: 1.44rem;;
+      color: #fff;
+      a {
+        color: #fff;
+        &:hover, &:focus {
+          color: $ccc-orange;
+        }
+      }
+    }
+    .cpc-subtitle {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-family: SourceSansPro, serif;
+      color: #fff;
+    }
+    .cpc-post-info {
+      margin: 0 0 5px 0;
+      font-family: $base-semibold-italic;
+      color: #fff;
+      .social-links {
+        margin-bottom: 20px;
+        li a {
+          font-size: 2.8rem;
+        }
+      }
+    }
+    .cpc-excerpt {
+      margin: 0;
+      font-family: $base-light-font;
+      font-size: $small-size;
+      color: #fff;
+    }
+    .cpc-read-more {
+      display: block;
+      text-transform: uppercase;
+      font-family: $base-bold-font, serif;
+      color: #fff;
+      background-color: $legacy-black;
+      padding: 5px 10px;
+      font-size: 18px;
+      width: 120px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  &:hover, &:focus {
+    .cp-shadow {
+      background-color: #000;
+    }
+  }
+}

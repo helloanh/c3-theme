@@ -1,0 +1,232 @@
+/* = For legacy page-focus and page-career templates
+----------------------------------------------- */
+#careers, #our-focus {
+	.our-focus {
+		position: inherit;
+
+		.entry-content {
+			padding-left: 150px;
+			.attachment-featured {
+				float: left;
+				margin: 0 23px 5px 0;
+			}
+		}
+	}
+
+	.focus-sub {
+		position: absolute;
+		top: 125px;
+		ul {
+			list-style: none;
+			margin: 0;
+			width: 120px;
+		}
+		li {
+			margin-bottom: 12px;
+		}
+		a {
+			display: block;
+			padding: 10px 8px;
+			background: #E2E3E4;
+			color: #67686A;
+			font-family: $legacy-title;
+		}
+		a:hover {
+			background: #F8A435;
+			color: #fff;
+		}
+
+		.current_page_item {
+			a {
+				background: #F8A435;
+				color: #fff;
+			}
+		}
+	}
+
+	.focus-extended {
+		margin: 0;
+		li {
+			display: block;
+			float: left;
+			width: 270px;
+			height: 270px;
+			margin: 0 35px 45px 0;
+			&.last {
+				margin-right: 0;
+			}
+
+			.name-overlay {
+				color: transparent;
+				line-height: 1;
+				font: 26px/26px 'GnuolaneFree';
+				text-align: center;
+				padding: 122px 0 122px;
+				display: block;
+				background: none;
+				overflow: hidden;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition:  all 0.5s ease;
+				-o-transition:  all 0.5s ease;
+				transition:  all 0.5s ease;
+			}
+
+			.name-overlay:hover {
+				text-indent: 0;
+				color: #fff;
+				background: #F8A435;
+				background: rgba(248,164,53,0.8);
+				cursor: pointer;
+			}
+		}
+	}
+	.sub-section {
+		width: 0;
+		background: #E0E1E3;
+		position: absolute;
+		left: 0;
+		margin: -270px 0 0;
+		overflow: hidden;
+		z-index: 500;
+		min-height: 460px;
+	}
+	.section-left {
+		position: absolute;
+		top: 35px;
+		left: 35px;
+	}
+	.section-left img {
+		display: block;
+		width: 270px;
+		background: #F3F3F4;
+	}
+	.section-right {
+		margin: 40px 35px 35px 335px;
+		max-width: 660px;;
+	}
+	.section-right h3 {
+		color: #154B7D;
+		font-size: 28px;
+		margin-bottom: 12px;
+	}
+
+	@media screen and (max-width: 799px) {
+		.site-content.our-focus .entry-content {
+			padding: 25px;
+		}
+		.focus-sub {
+			display: none;
+		}
+	}
+}
+
+/* =Our Focus Pages
+----------------------------------------------- */
+.our-focus {
+	position: relative;
+}
+
+.focus-sub {
+	position: absolute;
+	top: 125px;
+}
+.focus-sub ul {
+	list-style: none;
+	margin: 0;
+	width: 120px;
+}
+.focus-sub li {
+	margin-bottom: 12px;
+}
+.focus-sub a {
+	display: block;
+	padding: 10px 8px;
+	background: #E2E3E4;
+	color: #67686A;
+	font: 21px/25px'GnuolaneFree';
+}
+.focus-sub .current_page_item a,
+.focus-sub a:hover {
+	background: #F8A435;
+	color: #fff;
+}
+.our-focus .entry-content {
+	padding-left: 150px;
+}
+.entry-content .attachment-featured {
+	float: left;
+	margin: 0 23px 5px 0;
+}
+.focus-extended {
+	margin: 0;
+}
+.focus-extended li {
+	display: block;
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 0 35px 35px 0;
+}
+.focus-extended li.last {
+	margin-right: 0;
+}
+.focus-extended li .name-overlay {
+	color: transparent;
+	line-height: 1;
+	font: 26px/26px 'GnuolaneFree';
+	text-align: center;
+	padding: 122px 0 122px;
+	display: block;
+	background: none;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition:  all 0.5s ease;
+	transition:  all 0.5s ease;
+}
+.focus-extended li .name-overlay:hover {
+	text-indent: 0;
+	color: #fff;
+	background: #F8A435;
+	background: rgba(248,164,53,0.8);
+	cursor: pointer;
+}
+
+.sub-section {
+	width: 0;
+	background: #E0E1E3;
+	position: absolute;
+	left: 0;
+	margin: -270px 0 0;
+	overflow: hidden;
+	z-index: 500;
+	min-height: 460px;
+}
+.section-left {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+.section-left img {
+	display: block;
+	width: 270px;
+	background: #F3F3F4;
+}
+.section-right {
+	margin: 40px 35px 35px 335px;
+	max-width: 660px;;
+}
+.section-right h3 {
+	color: #154B7D;
+	font-size: 28px;
+	margin-bottom: 12px;
+}
+
+@media screen and (max-width: 799px) {
+	.site-content.our-focus .entry-content {
+		padding: 25px;
+	}
+	.focus-sub {
+		display: none;
+	}
+}

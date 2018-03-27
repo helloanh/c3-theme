@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+  .navbar-default {
+    .container {
+      .navbar-header {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .navbar-collapse {
+        border: none;
+        ul {
+          margin: 0;
+          li {
+            display: block;
+            width: 100%;
+            a {
+              text-align: center;
+              font-size: 24px;
+              border-bottom: 1px #fff solid;
+            }
+            &:last-child a {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

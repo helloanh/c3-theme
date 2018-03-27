@@ -1,0 +1,136 @@
+#join-us {
+  margin-top: 50px;
+  min-height: unset;
+  padding: 0;
+  .join-us-form {
+    padding: 30px 0;
+    background: $legacy-black;
+    h2 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+  }
+  .join-us-actions {
+    background: url('../images/footer-bw-seniors.jpg') no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    .jua-btn {
+      @include border-radius(50%);
+      background-color: rgba(0,0,0,.5);
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      padding: 57px 20px;
+      text-align: center;
+      border: 5px #fff solid;
+      font-size: 1.15em;
+      font-family: SourceSansProSemibold;
+      color: #fff;
+      &.align-two-lines {
+        padding-top: 45px;
+      }
+      &:hover, &:focus {
+        border-color: $ccc-orange;
+      }
+    }
+
+  }
+}
+
+footer {
+  background: #fff;
+  .footer {
+    .container {
+      .footer-left-bloc {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background-color: #fff;
+        color: $legacy-black;
+        .footer-contact, .footer-about, .footer-quicklinks {
+          ul {
+            li {
+              font-size: $small-size;
+              color: $legacy-fade-green;
+            }
+          }
+        }
+        h4 {
+          font-family: SourceSansProLight;
+          color: $ccc-blue;
+        }
+        ul {
+          padding: 0;
+          list-style: none;
+          li {
+            a {
+              color: $legacy-black;
+            }
+          }
+          &.home-social-links li {
+            display: inline-block;
+            margin-right: 10px;
+            height: 0px;
+            a {
+              font-size: 1.75rem;
+              color: $ccc-blue;
+            }
+          }
+          &.home-social-links li {
+            a:hover {
+              color: $ccc-orange;
+            }
+          }
+        }
+      }
+      .footer-right-bloc {
+        padding: 3em 3.75em 3.5em 3.6em;
+        background: $ccc-blue;
+        color: #ffffff;
+        .check-out-c4-txt {
+          border-bottom: 3px solid #ffffff;
+        }
+        .c4-logo-footer {
+          padding-top: 0.8em;
+        }
+      }
+      .footer-right-bloc:hover, .footer-right-bloc:active {
+        background: $ccc-orange;
+      }
+    }
+  }
+  .under-footer {
+    background: #eee;
+    .container {
+      > div {
+        width: 50%;
+        padding: 15px 0 10px 0;
+        ul {
+          margin: 0;
+          li {
+            display: inline-block;
+            margin: 0 10px;
+          }
+        }
+        img, a {
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+      .logos {
+        float: left;
+        text-align: left;
+        ul li:first-child {
+          margin-left: 0;
+        }
+      }
+      .links {
+        text-align: right;
+        float: right;
+        ul li:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+

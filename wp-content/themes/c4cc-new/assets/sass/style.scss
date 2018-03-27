@@ -1,0 +1,66 @@
+// Global
+@import "global/_mixins";
+@import "global/_settings";
+@import "global/_settings-overrides";
+@import "global/_helpers";
+@import "global/_fonts";
+@import "global/_base";
+
+// Modules
+@import 'modules/_header';
+@import 'modules/_footer';
+@import 'modules/_navigation';
+@import 'modules/_slideshow';
+@import 'modules/_sidebar';
+@import 'modules/_alerts';
+@import 'modules/_post-content';
+@import 'modules/_legacy-submenu';
+
+// Components
+@import 'components/_buttons';
+@import 'components/_titles';
+@import 'components/_paginator';
+@import 'components/_tabs';
+@import 'components/_panes';
+@import 'components/_searchbar';
+@import 'components/_blocs';
+
+// Shared
+@import "templates/_shared";
+
+// Front Page
+@import "templates/parts/hero";
+@import "templates/parts/default_page";
+@import "templates/parts/the_latest";
+@import "templates/_hub";
+@import "templates/_single";
+@import "templates/_404";
+@import "templates/_author";
+@import "templates/_campaign";
+@import "templates/_50event";
+	
+// patchs
+@import "templates/parts/our_work";
+
+// legacy
+@import "templates/annual";
+@import "templates/parts/changeawards";
+@import "templates/parts/immigration_timeline";
+@import "templates/parts/contact_us_legacy";
+@import "templates/parts/career_focus_legacy";
+@import "templates/parts/people_legacy";
+@import "templates/parts/focus_areas";
+@import "templates/parts/way_to_donate";
+@import "templates/parts/do_something";
+
+// responsive
+@import "templates/responsive/page_header_legacy";
+@import "templates/responsive/hero";
+@import "templates/responsive/our_work";
+@import "templates/responsive/the_latest";
+@import "templates/responsive/navigation";
+@import "templates/responsive/shared";
+@import "templates/responsive/home";
+@import "templates/responsive/changewire";
+@import "templates/responsive/_50event";
+@import "templates/responsive/footer";

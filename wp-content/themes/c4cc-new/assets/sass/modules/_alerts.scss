@@ -1,0 +1,24 @@
+.alerts-text {
+  list-style: square;
+  font-size: 12px;
+  padding: 0 0 0 15px;
+  @include border-radius(0);
+  border: none;
+}
+
+.alert-text-danger{
+  color: $danger_darken;
+}
+
+.alert-text-info,
+.alert-text-complete{
+  color: $complete_darken;
+}
+
+.alert-text-warning{
+  color: $warning_darken;
+}
+
+.alert-text-success{
+  color: $success_darken;
+}

@@ -1,0 +1,24 @@
+#acf-link, #acf-file, #acf-audio {
+  display: none; }
+
+.featured-post {
+  color: green;
+  font-weight: bold; }
+
+.featured-post-title .dashicons {
+  font-size: 15px;
+  color: darkgoldenrod; }
+
+.featured-post-title a {
+  color: goldenrod;
+  font-size: 16px; }
+
+.featured-post-title .featured-post-badge {
+  background: #e14d43;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin-left: 10px; }
+
+[data-field_name="featured_story"] {
+  display: none; }

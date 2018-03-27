@@ -1,0 +1,57 @@
+/* Old navbar from previous theme */
+.entry-header {
+  .menu {
+    list-style: none;
+    float: right;
+    margin: 0;
+    background: #66686A;
+    height: 66px;
+    width: 50%;
+
+    li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      margin: 38px 0px 0;
+    }
+
+    a {
+      color: #fff;
+      font-family: 'Gnuolane';
+      font-size: 1em;
+      padding-bottom: 0.25em;
+    }
+
+    a:hover {
+      background: url(images/nav_active.png) center bottom no-repeat;
+    }
+  }
+
+  .current_page_item, .current-page-ancestor, {
+    a {
+      background: url(images/nav_active.png) center bottom no-repeat;
+    }
+  }
+}
+
+.mobile-menu {
+  display: none;
+}
+
+
+.entry-content {
+  padding: 45px;
+  background: #F3F3F4;
+  margin-bottom: 36px;
+}
+.entry-content .intro {
+  color: #154B7D;
+  margin-bottom: 18px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.entry-content h2 {
+  color: #144B7D;
+  font: 24px Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+}

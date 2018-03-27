@@ -1,0 +1,22 @@
+#home .home-caption{
+  font-family: 'SourceSansProBold';
+  margin-top: -38px;
+
+}
+@media (max-width: 992px) {
+  #home .home-caption {
+    width: 65%;
+  }
+}
+
+@media (max-width: 767px) {
+  #home .home-caption {
+    width: 90%;
+    right: 5%;
+    margin: 0 auto;
+    padding: 25px 30px;
+      h1{
+          font-size:1.998em;
+      }
+  }
+}

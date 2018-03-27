@@ -1,0 +1,12 @@
+.ie-non-svg-ccc50-logo {
+    display: none;
+}
+
+#anniv-home {
+    min-height: 80vh;
+    padding-top: 70px!important;
+    background: url(https://s13.postimg.org/4upwvhfjr/ccc50-banner.png) no-repeat;
+}
+#anniv-home #ccc-anniv-logo {
+    display:none;
+}

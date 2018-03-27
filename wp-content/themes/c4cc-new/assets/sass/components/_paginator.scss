@@ -1,0 +1,23 @@
+.paginator {
+  text-align: center;
+  clear: both;
+  .pagination {
+    li {
+      a {
+        text-align: center;
+        line-height: 46px;
+        margin: 0 4px;
+        border: none;
+        height: 46px;
+        width: 46px;
+        padding: 0;
+        @include drop-shadow(0, 1px, 3px, .3);
+        @include border-radius(50%);
+      }
+    }
+  }
+}
+
+.table-bordered + .paginator .pagination {
+  margin: 0;
+}

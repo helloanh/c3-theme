@@ -1,0 +1,52 @@
+$text-color: #000000;
+$base-font-size: 16px;
+$base-font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+$base-font-weight: 400;
+$hub-section-font: "Gnuolane";
+$base-bold-font: "SourceSansProBold";
+$base-semibold-font: "SourceSansProSemibold";
+$base-light-font: "SourceSansProLight";
+$base-semibold-italic: "SourceSansProSemiboldItalic";
+$bebas-font: "BebasNeue";
+$change-awards-title: "BodegaMedium";
+$change-awards-title-light: "BodegaLight";
+$legacy-title: $bebas-font;
+$legacy-subtitle: "Gnuolane";
+$change-wire-logo-font: "Goldana Drop Stripes";
+
+
+$ccc-orange: #F4A216;
+$ccc-blue: #144B7D;
+$ccc-gray: #ebedec;
+$awards-bg-gray: #f5f7f6;
+$legacy-black: #2A2A21;
+$legacy-fade-green: #B5C3BD;
+$legacy-light-grey: #E8EBE9;
+$ccc-magenta: #B4446C;
+
+$main-text-color: $legacy-black;
+
+$margin-titles-default: 1.414em 0 0.5em;
+$default-title-size: 2.074em;
+$default-subtitle-size: 1.728em;
+$default-h3-size: 1.44em;
+$default-h4-size: 1.2em;
+$small-size: 0.875em;
+$default-line-height: 1.45;
+$default-p-size: 1em;
+
+$home-la-title: 3.75em;
+$home-lg-subtitle: 2.215em;
+$home-lg-h3: 1.75em;
+
+$mobile-title: 1.9em;
+$mobile-subtitle: 1.5em;
+$mobile-p-size: 0.825em;
+
+$widthMenu: 240px;
+$bgMenu: $ccc-orange;
+
+
+body{ font-family: $base-font-family; }
+h1, h2, h3,h4,h5{ font-family: $base-bold-font; }
+a { color: $ccc-orange; }

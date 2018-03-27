@@ -1,0 +1,261 @@
+{
+    "key": "group_59821f28eff43",
+    "title": "At The Center Newsletter",
+    "fields": [
+        {
+            "key": "field_59821f39525a9",
+            "label": "Issue Season Year",
+            "name": "issue_season_year",
+            "type": "text",
+            "instructions": "Put the issue season and year here. Example: \"Spring 2017\"",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Spring 2017",
+            "prepend": "",
+            "append": "",
+            "maxlength": 100
+        },
+        {
+            "key": "field_5982220cb034b",
+            "label": "In-These-Times-Subheading",
+            "name": "in-these-times-subheading",
+            "type": "text",
+            "instructions": "subheading for in these times section after banner",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59822238b034d",
+            "label": "Banner Excerpt",
+            "name": "banner_excerpt",
+            "type": "wysiwyg",
+            "instructions": "excerpt in the In These Times section.  Keep it under one paragraph.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_59822259b034e",
+            "label": "In These Times Full Text",
+            "name": "in_these_times_full_text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_5982227bb034f",
+            "label": "In These Times Author",
+            "name": "in_these_times_author",
+            "type": "image",
+            "instructions": "author name for In These Times section",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_5982274e09430",
+            "label": "In These Times Author Destination Link",
+            "name": "in_these_times_author_dest_link",
+            "type": "url",
+            "instructions": "author name for In These Times section",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_598222a4b0350",
+            "label": "On The Move Full Text",
+            "name": "on_the_move_full_text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_598222ddb0351",
+            "label": "On The Move Highlight Stories",
+            "name": "on_the_move_highlight_stories",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": "",
+            "max": 6,
+            "layout": "row",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_59822360b0352",
+                    "label": "On The Move Story Title",
+                    "name": "on_the_move_story_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "on the move story title",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59822404b0354",
+                    "label": "On The Movie Image Destination Link",
+                    "name": "on_the_movie_image_destination_link",
+                    "type": "url",
+                    "instructions": "destination for the on the move image",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "url here"
+                },
+                {
+                    "key": "field_598235a0216ea",
+                    "label": "On The Move Image Url (External)",
+                    "name": "on_the_move_image_url_external",
+                    "type": "url",
+                    "instructions": "for images that have been uploaded elsewhere",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_598235c8216eb",
+                    "label": "",
+                    "name": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-newsletter-dtw.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-newsletter-dtw-v2.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-newsletter-dtw-v3.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1512411017
+}

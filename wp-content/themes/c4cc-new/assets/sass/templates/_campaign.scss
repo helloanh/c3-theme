@@ -1,0 +1,167 @@
+#single-campaign {
+  background-color: $ccc-gray;
+  padding: 50px 0;
+  color: $legacy-black;
+  .campaigns-title {
+    font-size: $default-subtitle-size;
+    margin: 1.414em 0 0.5em;
+  }
+  .campaign-title-container {
+    height: 140px;
+    background: center;
+    .container {
+      padding: 30px 0;
+      h1 {
+        margin-bottom: 5px;
+      }
+      .social-links {
+        li {
+          a {
+            font-size: 2.7rem;
+            color: $ccc-orange;
+            &:hover {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .campaign-content-container {
+    padding: 50px 0;
+    background-color: #fff;
+    font-size: 16px;
+    .campaign-image {
+      position: relative;
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+      a {
+        display: block;
+        position: absolute;
+        bottom: 0; right: 0;
+        text-transform: uppercase;
+        font-family: SourceSansPro;
+        color: $ccc-orange;
+        background-color: $legacy-black;
+        padding: 5px 10px;
+        font-style: italic;
+      }
+    }
+    .campaign-info {
+      .socials-btns {
+        margin-top: 20px;
+        list-style: none;
+        padding: 0;
+        li {
+          float: left;
+          margin-right: 20px;
+          a {
+            display: block;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+          }
+          .campaign-read-more {
+            width: 120px;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            font-family: SourceSansProBlack, serif;
+            color: $legacy-black;
+            background-color: $ccc-gray;
+            padding: 0 2em;
+            width: 100%;
+          }
+          .social-btn {
+            font-size: 1.35rem;
+            color: $ccc-orange;
+            &:hover {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .latest-updates {
+    .post-container .post-info-container {
+      bottom: auto;
+      top: 0;
+      height: 100%;
+      padding: 30px;
+    }
+    .cover-post {
+      min-height: 470px;
+      .cp-container {
+        padding: 30px 45px;
+        background-color: rgba(0,0,0,.4);
+        .cpc-title {
+          text-transform: initial;
+        }
+      }
+    }
+  }
+  .sign-up {
+    background-color: $ccc-magenta;
+    padding: 10px 0 30px 0;
+    margin: 20px 0;
+    h2 {
+      color: #fff;
+      font-size: 2rem;
+      font-family: $base-light-font;
+    }
+    .form-group {
+      width: 20%;
+      margin-right: -3px;
+      &:first-child {
+        margin-right: -2px;
+      }
+      input {
+        height: 40px;
+        line-height: 40px;
+        border: none;
+        &[type="text"] {
+          width: 90%;
+          padding-left: 15px;
+          background-color: rgba(255,255,255,.8);
+        }
+        &[type="submit"] {
+          width: 100%;
+          background-color: rgba(0,0,0,.5);
+          color: #fff;
+          text-transform: uppercase;
+          font-family: SourceSansProBold, serif;
+        }
+      }
+    }
+  }
+  .story-border-top {
+    border-color: #fff;
+    margin-bottom: 30px;
+  }
+  .resources-list {
+    list-style: none;
+    padding: 0;
+    li {
+      padding: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      a {
+        color: #000;
+        &.resource-author-link {
+          font-weight: normal;
+          color: $ccc-blue;
+          font-style: italic;
+        }
+      }
+    }
+  }
+  .related-campaigns {
+    margin-top: 40px;
+    .fa {
+      font-size: 0.5em;
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+    "key": "group_579bc472ab8d8",
+    "title": "Honoree",
+    "fields": [
+        {
+            "key": "field_51842fd4df531",
+            "label": "Year",
+            "name": "year",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "current": "current",
+                "previous": "previous"
+            },
+            "default_value": [
+                "current"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_51771c155981e",
+            "label": "Picture",
+            "name": "picture",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_51842fd4df531",
+                        "operator": "==",
+                        "value": "current"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "id",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_51771d0659820",
+            "label": "Thumbnail Picture*",
+            "name": "thumbnail_picture",
+            "type": "image",
+            "instructions": "*optional: only necessary if using a different image\/cropping than the main picture for the thumbnail picture. 264 \u00d7\u2006264 pixels",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_51842fd4df531",
+                        "operator": "==",
+                        "value": "current"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "id",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_51771dc5a4969",
+            "label": "Description",
+            "name": "description",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_51842fd4df531",
+                        "operator": "==",
+                        "value": "current"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "none",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_51771cd75981f",
+            "label": "About",
+            "name": "about",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_51842fd4df531",
+                        "operator": "==",
+                        "value": "current"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "full",
+            "media_upload": 0,
+            "tabs": "all"
+        },
+        {
+            "key": "field_5184303fdf532",
+            "label": "Group Picture",
+            "name": "group_picture",
+            "type": "image",
+            "instructions": "640\u2006pixels wide",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_51842fd4df531",
+                        "operator": "==",
+                        "value": "previous"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "id",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_51843147df533",
+            "label": "Honorees",
+            "name": "honorees",
+            "type": "wysiwyg",
+            "instructions": "Format as a list.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_51842fd4df531",
+                        "operator": "==",
+                        "value": "previous"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "full",
+            "media_upload": 0,
+            "tabs": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cca_honoree"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "custom_fields"
+    ],
+    "active": 1,
+    "description": "",
+    "old_ID": 59,
+    "local": "php",
+    "modified": 1507134483
+}

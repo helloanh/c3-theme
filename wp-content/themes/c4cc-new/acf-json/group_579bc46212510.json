@@ -1,0 +1,48 @@
+{
+    "key": "group_579bc46212510",
+    "title": "Contact Information",
+    "fields": [
+        {
+            "key": "field_523320722a13e",
+            "label": "Contact Info",
+            "name": "contact_info",
+            "type": "text",
+            "instructions": "Displays above content",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "release"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": 1,
+    "description": "",
+    "old_ID": 551,
+    "local": "php",
+    "modified": 1507134482
+}

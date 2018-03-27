@@ -1,0 +1,232 @@
+@media screen and (min-width: 1080px) {
+
+	.container.immigrant {
+		width: 100%;
+		min-height: 480px;
+	}
+	.container.immigrant .entry-header {
+		width: 1080px;
+		margin: 0 auto 10px ;
+	}
+	.timeline-carousel {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 640px) {
+
+	.container.immigrant .entry-header {
+		width: 100%;
+		margin: 0 auto 10px ;
+	}
+	.timeline-carousel p{ margin-bottom: 21px; }
+	.timeline-carousel ul{ 
+		top: 0; 
+		left: 0; 
+		width: 100%; 
+		border-bottom: 1px dashed #828386; 
+		font-size: 18px; 
+		line-height: 21px; 
+		padding-top: 23px; 
+		text-align: center; 
+		list-style: none; 
+		overflow: hidden; 
+		margin: 0;
+		background: #f2f2f4;
+		
+	}
+	.timeline-carousel li{ display: inline-block; max-width: 96%; -ms-transform: translateX(850%); -webkit-transform: translateX(850%); transform: translateX(850%); -moz-transition: opacity 500ms linear; -webkit-transition: opacity 500ms linear; transition: opacity 500ms linear; 
+		position: relative;
+	}
+	.current li{ -ms-transform: translateX(0); -webkit-transform: translateX(0); transform: translateX(0); }
+	
+	.timeline-carousel ul button.round { position: relative; width: 146px; height: 146px; padding: 0; margin: 27px 4px 0; color: #66686a; border: 5px solid #f7a635; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+	.timeline-carousel ul button .arrow{ position: absolute; top: 140px; left: 50%; width: 0; height: 0; margin-left: -13px; border-color: #f7a635 transparent; border-style: solid; border-width: 13px 13px 0 13px; }
+	.timeline-carousel ul button strong, .timeline-carousel ul button span{ position: absolute; display: block; opacity: 0; -moz-transition: opacity 300ms; -webkit-transition: opacity 300ms; transition: opacity 300ms; }
+	.timeline-carousel ul button strong{ top: -5px; left: -5px; width: 146px; height: 146px; background: #f7a635; font: normal 36px/146px 'bebas_neueregular'; color: #fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+	.timeline-carousel ul button span{ top: 158px; left: -82px; width: 300px; font-size: 14px; line-height: 17px; }
+	.timeline-carousel ul button.round:hover strong, .timeline-carousel ul button.round:hover span{ opacity: 1; }
+	
+	.previous-reports { 
+		clear: both;
+		left: 0; 
+		width: 100%; /*height: 99px;*/ 
+		padding-bottom: 31px; 
+		font: 28px/28px 'bebas_neueregular'; 
+		text-align: center; 
+		z-index: 1; 
+	}
+	.previous-reports a,
+	.previous-reports a:visited { 
+		display: inline-block;
+		width: 188px; 
+		padding: 5px 0;
+		margin-top: 30px; 
+		-moz-transition: background 300ms; 
+		-webkit-transition: background 300ms;
+		transition: background 300ms; 
+		font: 28px/28px 'bebas_neueregular'; 
+		background: #f7a635; 
+		color: #fff; 
+	}
+	.previous-reports .shorter {
+		position: relative;
+		top: -14px;
+		padding: 19px 0;
+	}
+	.previous-reports a:hover {
+		background: #fff;
+	}
+	.timeline-overlay{ 
+		position: relative; 
+		display: none; 
+		top: -196px;
+		padding: 22px 4%; 
+		margin-bottom: -450px; 
+		background: #fff; 
+		color: #66686a; 
+		font-size: 18px; 
+		line-height: 38px; 
+		z-index: 1; 
+		text-align: left;
+		width: 92%;
+	}
+	.timeline-overlay .the-slider{ position: absolute; top: 0; right: 0; width: 0; height: 100%; background: #e5e5e5; opacity: 1; }
+	.timeline-overlay > div{ position: relative; width: 100%; margin: 0 auto; opacity: 0; }
+	.timeline-overlay button{ position: absolute; top: -7px; right: 15px; padding-right: 39px; background: url(images/close.png) no-repeat right center; border: none; font: 21px 'Gnuolane'; text-transform: uppercase; }
+	.timeline-overlay h1{ 
+		padding-right: 122px; 
+		margin-bottom: 27px; 
+		font: bold 24px/35px Helvetica, Arial, sans-serif; 
+		color: #19487c; }
+	.timeline-overlay section{ margin-bottom: 28px; }
+	.timeline-overlay p {
+		clear: none !important;
+	}
+	.timeline-overlay img, 
+	.timeline-overlay iframe{ 
+		border: 4px solid #fff; 
+		float: left;
+		margin: 0 20px 20px 0;
+		}
+	
+	.full-report {
+		display: block;
+		margin: 60px auto 30px;
+		color: #0f4a7f;
+		font: 24px 'GnuolaneFree';
+	}
+}
+@media screen and (max-width: 639px) {
+
+	.entry-header {
+		h1 {
+			font-size: 1.15em;
+			float: inherit;
+			margin: 0px;
+		}
+	}å
+
+	.timeline-carousel ul{ 
+		top: 0; 
+		left: 0; 
+		width: 100%; 
+		border-bottom: 1px dashed #828386; 
+		font-size: 18px; 
+		line-height: 21px; 
+		padding-top: 23px; 
+		text-align: center; 
+		list-style: none; 
+		overflow: hidden; 
+		margin: 0;
+		background: #f2f2f4;	
+	}
+	.timeline-carousel li{ 
+		display: block; 
+		max-width: 96%; 
+		-ms-transform: translateX(850%); 
+		-webkit-transform: translateX(850%); 
+		transform: translateX(850%); 
+		-moz-transition: opacity 500ms linear; 
+		-webkit-transition: opacity 500ms linear; 
+		transition: opacity 500ms linear; 
+	}
+	.current li{ -ms-transform: translateX(0); -webkit-transform: translateX(0); transform: translateX(0); }
+	
+	.timeline-carousel ul button.round { 
+		position: relative; 
+		width: 146px; 
+		height: 146px; 
+		padding: 0; 
+		margin: 27px 4px 0; 
+		color: #66686a; 
+		border: 5px solid #f7a635; 
+		-webkit-border-radius: 50%; 
+		-moz-border-radius: 50%; 
+		border-radius: 50%; 
+	}
+	.timeline-carousel ul button .arrow{ position: absolute; top: 140px; left: 50%; width: 0; height: 0; margin-left: -13px; border-color: #f7a635 transparent; border-style: solid; border-width: 13px 13px 0 13px; }
+	.timeline-carousel ul button strong, .timeline-carousel ul button span{ position: absolute; display: block; opacity: 0; -moz-transition: opacity 300ms; -webkit-transition: opacity 300ms; transition: opacity 300ms; }
+	.timeline-carousel ul button strong{ top: -5px; left: -5px; width: 146px; height: 146px; background: #f7a635; font: normal 36px/146px 'bebas_neueregular'; color: #fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+	.timeline-carousel ul button span{ top: 158px; left: -82px; width: 300px; font-size: 14px; line-height: 17px; }
+	.timeline-carousel ul button.round:hover strong, .timeline-carousel ul button.round:hover span{ opacity: 1; }
+	
+	.previous-reports { 
+		clear: both;
+		left: 0; 
+		width: 100%; /*height: 99px;*/ 
+		padding-bottom: 31px; 
+		font: 28px/28px 'bebas_neueregular'; 
+		text-align: center !important; 
+		z-index: 1; 
+		margin-top: 30px auto 0 !important;
+	}
+	.previous-reports a,
+	.previous-reports a:visited { 
+		display: block;
+		width: 188px; 
+		text-align: center !important;
+		padding: 5px 0;
+		margin: 30px auto 0 !important; 
+		-moz-transition: background 300ms; 
+		-webkit-transition: background 300ms;
+		transition: background 300ms; 
+		font: 28px/28px 'bebas_neueregular'; 
+		background: #f7a635; 
+		color: #fff; 
+	}
+	.previous-reports .shorter {
+		//position: relative;
+		padding: 19px 0;
+	}
+	.previous-reports a:hover {
+		background: #fff;
+	}
+	.timeline-overlay{ 
+		position: relative; 
+		display: none; 
+		padding: 22px 2%; 
+		width: 96%;
+		margin-bottom: -146px; 
+		background: #fff; 
+		color: #66686a; 
+		font-size: 18px; 
+		line-height: 38px; 
+		z-index: 1; 
+		top:  -146px;
+		}
+	.timeline-overlay .the-slider{ position: absolute; top: 0; right: 0; width: 0; height: 100%; background: #e5e5e5; opacity: 1; }
+	.timeline-overlay > div{ position: relative; width: 100%; margin: 0 auto; opacity: 0; }
+	.timeline-overlay button{ position: absolute; top: -7px; right: 15px; padding-right: 39px; background: url(images/close.png) no-repeat right center; border: none; font: 21px 'Gnuolane'; text-transform: uppercase; }
+	.timeline-overlay h1{ padding-top: 27px; 
+		margin-bottom: 27px; 
+		font: bold 24px/35px Helvetica, Arial, sans-serif; color: #19487c; }
+	.timeline-overlay img, .timeline-overlay iframe{ margin-bottom: 2px; border: 4px solid #fff; }
+	
+	.full-report {
+		display: block;
+		margin: 60px auto 30px;
+		color: #0f4a7f;
+		font: 24px 'GnuolaneFree';
+	}
+}

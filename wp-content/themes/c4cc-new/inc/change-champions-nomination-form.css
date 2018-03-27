@@ -1,0 +1,186 @@
+/* Change Champions Nomination Page with Gravity Form 
+	Path: https://www.communitychange.org/emerging-change-champions-nomination/
+	By Anh K. Hoang
+	helloanh.io
+*/
+
+/*article#post-4841 form#gform_4 ul {
+	list-style: none !important;
+}
+*/
+
+article#post-4841 h2.gsection_title {
+  text-transform: uppercase;
+  font-stretch: semi-condensed;
+  font-weight: 700;
+}
+
+article#post-4841 h3.gform_title {
+  font-size: 2em;
+  margin-bottom: 1.15em;
+  text-align: center;
+  color: #fff;
+  background: #78ab43;
+  padding: 10px 0;
+  /* font-stretch: ultra-expanded; */
+}
+
+article#post-4841 form#gform_4 ul {
+	list-style: none !important;
+}
+
+article#post-4841 li {
+	list-style: none;
+}
+
+li#field_4_26 {
+  padding-top: 20px;
+}
+
+article#post-4841 .entry-content h2 {
+  color: #144B7D;
+  font-size: 1.5em;
+  margin-bottom: 4px;
+  border-bottom: 2px solid;
+}
+
+ul#form_fields_4 {
+	list-style: none !important;
+	list-style-type: none;
+}
+
+.charleft.ginput_counter {
+  display: none;
+}
+
+
+label {
+	font-weight: 600;
+	font-style: italic;
+  font-size: 1.15em;
+	color: #444;
+}
+
+
+input, textarea, select {
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	display: grid;
+	margin: 0px 2px 15px 0;
+}
+
+textarea {width: 80%;}
+
+label#input_4_4_4_label, label#input_4_10_5_label {
+  display: block;
+}
+
+label.gfield_label.gfield_label_before_complex {
+  color: #8bc54c;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+label.gfield_label {
+  font-size: 18px;
+  /*color: #78ab43;*/
+}
+
+
+label#input_4_10_5_label {
+  font-size: 18px;
+}
+
+select#input_4_31 {
+  padding: 5px 0 5px 5px;
+  width: 15%;
+  background: #66686a;
+  color: white;
+}
+
+span#input_4_2_3_container, 
+span#input_4_2_6_container,
+span#input_4_8_3_container,
+span#input_4_8_6_container {
+  font-size: 18px;
+}
+
+input#gform_submit_button_4 {
+  padding: 10px;
+  width: 25%;
+  background: #78ab43;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+input#gform_submit_button_4:hover, input#gform_submit_button_4:focus {
+	background: #66686A;
+}
+
+a#gform_save_4_link {
+  background: #F9A435;
+  color: #fff;
+  padding: 13px;
+  text-transform: uppercase;
+}
+
+a#gform_save_4_link:hover, a#gform_save_4_link:focus {
+	background: #66686A;
+}
+
+.gsection-description {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #444;
+}
+
+.gfield_description {
+  font-size: 16px;
+  margin: 5px 0 10px;
+  color: #333;
+}
+
+.gfield_description {
+  font-size: 14px;
+  margin: 5px 0 10px;
+  color: #144B7D;
+  font-weight: 600;
+}
+
+
+li#field_4_31, li#field_4_37 {
+   margin: 20px 0; 
+}
+
+li#field_4_34 p {
+  color: #78ab43;
+  font-size: 20px;
+}
+
+li#field_4_29 .gsection_description {
+  font-size: 18px;
+}
+
+li#field_4_30{
+  margin: 25px 0;
+}
+
+select#input_4_31 {
+  padding: 5px 10px;
+  margin: 10px 0;
+  background: #78ab43;
+  color: white;
+}
+
+input#gform_browse_button_4_30 {
+  background: #F9A435;
+  width: 15%;
+  color: white;
+}
+
+input#gform_browse_button_4_30:hover, 
+input#gform_browse_button_4_30:active, 
+input#gform_browse_button_4_30:focus {
+  background: #66686A;
+}

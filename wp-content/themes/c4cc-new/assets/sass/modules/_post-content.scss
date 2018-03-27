@@ -1,0 +1,17 @@
+.content {
+	h2 {
+		font-family: $legacy-subtitle;
+		font-size: 1.728em;
+		color: $legacy-black;
+	}
+	p, .author {
+		margin-bottom: 1.3em;
+		color: $legacy-black;
+	}
+
+	.author {
+		font-family: $base-light-font;
+	}
+
+}
+

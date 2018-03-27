@@ -1,0 +1,205 @@
+body {
+  color: $legacy-black;
+}
+#single-post-content-container {
+  p {
+    font-size: 1.2em;
+    font-family: $base-font-family;
+    line-height: 1.5;
+  }
+}
+#single-post {
+  padding: 70px 0 0 0;
+  color: $legacy-black;
+  blockquote, blockquote p {
+    font-family: $base-font-family;
+    font-style: italic;
+    padding: 1em 0.25em 1em 2.5em;
+    margin: 1em -3em 1em 2em;
+    font-size: 1.428em;
+    color: $ccc-blue;
+    position: relative;
+    line-height: 1.2;
+  }
+  blockquote::before {
+      font-family: Georgia, serif;
+      position: absolute;
+      font-size: 4.5em;
+      width: 60px;
+      height: 60px;
+      line-height: 1;
+      top: 0;
+      left: 0;
+      content: "\201C";
+      vertical-align: -0.5em;
+      margin-right: 0.25em;
+  }
+  .post-head {
+    .post-social-links {
+      padding: 0;
+      .category-title {
+        font-family: $base-bold-font;
+      }
+      li {
+        display: inline-block;
+        margin-right: 10px;
+        a {
+          font-size: 1em;
+          text-transform: uppercase;
+          color: $ccc-orange;
+          font-family: $base-semibold-font;
+        }
+        &:nth-child(1), &:nth-child(2) {
+          a {
+            color: $ccc-blue;
+          }
+        }
+      }
+    }
+    h1 {
+      font-size: 2.074em;
+      line-height: 1.2;
+      color: $legacy-black;
+      margin-bottom: 5px;
+    }
+    em {
+      font-size: 28px;
+      color: #777;
+    }
+    p {
+      font-size: $small-size;
+      font-style: italic;
+      color: rgba($legacy-black, 0.7);
+    }
+  }
+  .post-story {
+    p.drop:first-letter {
+      font-size: 5.75em;
+      float: left;
+      margin: 5px;
+      color: $ccc-blue;
+    }
+  }
+  .post-image {
+    .post-image-container {
+      width: 100%;
+      height: 470px;
+      background: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .post-image-container {
+      height: 400px;
+    }
+    .post-image-copyright {
+      padding-top: 1.125em;
+      p {
+        font-size: 0.875em;
+        font-family: SourceSansProLightItalic;
+        color: #777;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      strong {
+        color: $ccc-orange;
+        text-transform: uppercase;
+        font-family: SourceSansProBold;
+        font-size: 1.125em;
+      }
+    }
+  }
+    font-size: 1.15em;
+    color: $legacy-black;
+    
+  }
+  .post-tags {
+    padding: 0;
+    margin-top: 30px;
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      text-transform: uppercase;
+      font-size: 0.875em;
+      font-family: SourceSansProSemibold;
+      color: #fff;
+      background-color: $legacy-black;
+      &.tags-title {
+        padding: 4px 8px;
+      }
+      a {
+        display: block;
+        background-color: #999;
+        color: #fff;
+        padding: 4px 8px;
+        &:focus, &:hover {
+          background-color: $ccc-blue;
+        }
+      }
+    }
+  }
+  .post-social-share {
+    padding: 0;
+    margin: 30px 0;
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      a {
+        display: block;
+        padding: 8px 20px;
+        text-transform: uppercase;
+        font-size: 0.825em;
+        color: #fff;
+        &.btn-twitter {
+          background-color: #0084b4;
+        }
+        &.btn-facebook {
+          background-color: #3b5998;
+        }
+        &.btn-google {
+          background-color: #DB4437;
+        }
+        &.btn-pinterest {
+          background-color: #bd081c;
+        }
+      }
+    }
+  }
+  .post-author {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    .post-author-image {
+      @include background-size();
+      @include border-radius(50%);
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin-right: 30px;
+    }
+    .post-author-bio {
+      font-family: $base-font-family;
+      h3 {
+        color: $ccc-blue;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+  .post-resource {
+    margin-bottom: 30px;
+    .file-download {
+      font-weight: bold;
+      a {
+        display: inline-block;
+        padding: 3px 8px;
+        margin-left: 10px;
+      }
+    }
+
+  .post-story {
+    p {
+      color: $legacy-black;
+    }
+  }
+}

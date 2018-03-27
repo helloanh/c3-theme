@@ -1,0 +1,156 @@
+/* publication page
+	by anh k hoang
+*/
+
+p, h3, h4, h5, h6, a {
+	font-family: 'PT Sans', sans-serif !important;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 28px;
+	
+}
+
+h4 {
+	font-size: 22px !important;
+	font-weight: 400 !important;
+	font-style: italic !important;
+	color: #7f8c8d !important;
+}
+
+img {
+	border-radius: 3px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+/*	width: 100%;*/
+}
+
+#masthead {
+	background: white;
+}
+
+#publication {
+	font-family: 'PT Sans', sans-serif !important;
+}
+
+#publication .entry-header {
+	height: 75px;
+	background: #34495e;
+	border-bottom: 3px solid #ecf0f1;
+	background: url("http://changeaction.electricembers.net/communitychange/wp-content/uploads/2012/11/rally-image.jpg");
+}
+
+.entry-header h1 { 
+ word-spacing: 5px;
+}
+
+
+.pub-intro h2 {
+	font-family: 'Merriweather', serif !important;
+	line-height: 38px;
+	font-size: 28px;
+	color: #2980b9;
+	padding: 20px 0 15px 0;
+	font-weight: 300;
+	font-style: italic;
+
+}
+
+.pub-intro p {
+	font-size: 18px;
+	line-height: 22px;
+	font-family: 'PT Sans', sans-serif !important;
+	color: #3d3d3d;
+}
+
+
+.pub-title {
+	font-size: 28px !important; 
+	color: #2980b9 !important;
+	font-family: 'PT Sans', sans-serif !important;
+	text-align: justify;
+}
+
+.pub-subheader  {
+	font-size: 18px;
+	font-color: #d8d8d8;
+	font-style: normal;
+}
+
+img.pub-img {
+	width: 100%;
+}
+
+.download-button {
+/*	margin-top: -95px; 
+	margin-left: 25px; */
+	margin-top: -125px;
+  margin-left: 340px;
+	/*border-radius: 10px solid white;*/
+}
+
+.btn-default {
+	background: #16a085;
+	color: #fefefe;
+	border: 0 solid white;
+	border-radius: 0px;
+	width: 100%;
+	text-transform: uppercase;
+
+}
+
+#pre-footer {
+	margin-top: 100px;
+}
+
+.row p {
+	font-family: 'PT Sans', sans-serif !important;
+	line-height: 26px !important;
+	text-align: justify;
+	font-size: 22px;
+}
+
+.quote {
+	font-style: italic;
+}
+
+@media (max-width: 767px) {
+	.entry-header h1 {
+		padding: 15px !important;
+		font: 28px/36px 'bebas_neueregular' !important;
+		text-align: center;
+	}
+
+	.mobile-menu button {
+		display: none;
+	}
+
+	.pub-intro h2 {
+	  line-height: 30px;
+	  font-size: 22px;
+	  color: #2980b9;
+	  padding: 10px 0 10px 0;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	img {
+		/*width: 100%;*/
+	}
+
+	button.btn.btn-default {
+		margin-bottom: 16px;
+	}
+}
+
+
+.top-social .donate {
+  width: 220px !important;
+  height: initial !important;
+  font: 30px/36px 'bebas_neueregular' !important;
+  color: #fff;
+}

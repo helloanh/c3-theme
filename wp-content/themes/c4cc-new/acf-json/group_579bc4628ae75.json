@@ -1,0 +1,123 @@
+{
+    "key": "group_579bc4628ae75",
+    "title": "Contact Us Extended",
+    "fields": [
+        {
+            "key": "field_522be1fa699a9",
+            "label": "Address",
+            "name": "address",
+            "type": "wysiwyg",
+            "instructions": "3-4 line of text to display the address",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "full",
+            "media_upload": 0,
+            "tabs": "all"
+        },
+        {
+            "key": "field_522be24b699aa",
+            "label": "Employment Tease",
+            "name": "employment_tease",
+            "type": "wysiwyg",
+            "instructions": "3-4 lines of text describing employment opportunities",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "full",
+            "media_upload": 0,
+            "tabs": "all"
+        },
+        {
+            "key": "field_522be53b4ebbe",
+            "label": "Employment Link Name",
+            "name": "employment_link_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_522be56c4ebbf",
+            "label": "Employment Link",
+            "name": "employment_link",
+            "type": "text",
+            "instructions": "Full URL including http:\/\/",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "http:\/\/",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_522be2c8699ab",
+            "label": "Additional Content",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "The links for the social media icons can be edited on the Options page of the dashboard.",
+            "esc_html": 0,
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-contact.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": 1,
+    "description": "",
+    "old_ID": 138,
+    "local": "php",
+    "modified": 1507134482
+}

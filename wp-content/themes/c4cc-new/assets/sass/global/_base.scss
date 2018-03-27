@@ -1,0 +1,212 @@
+body {
+  font-family: $base-font-family;
+  background-color: $ccc-gray;
+  font-size: 16px;
+  color: #fff;
+}
+
+a {
+  color: $ccc-blue;
+  &:hover, &:focus {
+    color: $ccc-orange;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-family: SourceSansProBlack;
+  color: #fff;
+}
+
+h2 {
+  font-family: SourceSansProBlack;
+  font-size: $default-subtitle-size;
+  color: $ccc-blue;
+}
+
+h3 {
+  font-family: SourceSansProBlack;
+  text-transform: uppercase;
+  font-size: $default-h3-size;
+  color: #fff;
+}
+
+blockquote {
+  font-family: $base-font-family;
+  font-style: italic;
+  padding: 1em 0.25em 1em 2.5em;
+  margin: 1em -3em 1em 2em;
+  font-size: 1.428em;
+  color: $ccc-blue;
+  position: relative;
+  line-height: 1.2;
+  p {
+    padding: 0.25em;
+  }
+}
+blockquote::before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 4.5em;
+    width: 60px;
+    height: 60px;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+    vertical-align: -0.5em;
+    margin-right: 0.25em;
+}
+
+input[type="text"], input[type="password"], input[type="emailc"] {
+  width: 100%;
+  color: $ccc-blue;
+  border: 1px $legacy-light-grey solid;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 5px;
+}
+
+input[type="submit"] {
+  line-height: normal;
+  font-weight: 700;
+  &.sb-orange {
+    background-color: $ccc-orange;
+    border-color: $ccc-orange;
+    color: $main-text-color;
+    border: 0;
+    padding: 0.5em 3.275em;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}
+
+a.sb-orange {
+  background-color: $ccc-orange;
+  border-color: $ccc-orange;
+  color: $legacy-black;
+}
+
+.social-links {
+  padding: 0; margin: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    a {
+      display: block;
+      color: $legacy-light-grey;
+      margin-right: 20px;
+      font-size: 2rem;
+      &:hover {
+        color: $ccc-orange;
+      }
+    }
+  }
+  &.home-social-links {
+    position: absolute;
+    bottom: 1.25em;
+    right: 1.25em;
+    padding-right: 3em;
+    li a {
+      margin-left: 20px;
+      margin-right: 0;
+      font-size: 2rem;
+    }
+  }
+}
+
+.pagination {
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  > div {
+    padding: 5px 10px;
+    background-color: $ccc-blue;
+    font-family: SourceSansProBold;
+    font-size: 1em;
+    text-transform: uppercase;
+    a {
+      color: #fff;
+    }
+    &.alignleft {
+      float: left;
+    }
+    &.alignright {
+      float: right;
+    }
+  }
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  [class*="col-"] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+#searchform {
+  display: none;
+}
+
+#menu-top_menu #searchform {
+  float: right;
+  margin-left: 10px;
+  &.open {
+    display: inline;
+  }
+  input {
+    width: 150px;
+  }
+}
+
+#resource {
+  .cover-post {
+    .cp-container {
+      background-color: rgba( 20, 75, 125, 0.85);
+    }
+  }
+}
+
+#campaign, #resource {
+  .cover-post {
+    /*min-height: 450px;*/
+    .cp-container {
+      padding: 30px 45px;
+      .cpc-title {
+        font-size: 1.35em;
+        font-family: $base-semibold-font;
+      }
+      .cpc-excerpt {
+        font-size: $default-p-size;
+        margin-top: 8px;
+        padding-bottom: 48px;
+      }
+    }
+  }
+}
+
+.search-title {
+  margin-top: 80px;
+}
+
+pre {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid #fff;
+  font-size: 8px;
+}
+pre.sf-dump, .sf-dump-default, .sf-dump-num { display: none;}

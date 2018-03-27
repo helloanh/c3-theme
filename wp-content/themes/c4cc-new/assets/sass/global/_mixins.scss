@@ -1,0 +1,229 @@
+@mixin background-size($size:cover, $position: center center) {
+  background-position: $position;
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}
+
+@mixin defaultBackground($icon, $color: $ccc-gray, $width: 80px, $height: 80px) {
+  background-color: darken($color, 10%);
+  width: $width;
+  height: $height;
+  text-align: center;
+  &:after {
+    content: $icon;
+    font-family: 'FontAwesome';
+    /* Put here the height of the image */
+    font-size: 200%;
+    width: $width;
+    height: $height;
+    line-height: $height;
+    color: lighten($color, 2%);
+  }
+}
+
+@mixin background-size-with-image($image, $position: center center, $size: cover) {
+  background: url($image) no-repeat;
+  @include background-size($size, $position);
+}
+
+@mixin position($pos:absolute, $top:0, $right:0, $bottom:0, $left:0) {
+  position: $pos;
+  top: $top; right: $right;
+  bottom: $bottom; left: $left;
+}
+
+@mixin grayscale($value: 1) {
+  -webkit-filter: grayscale($value);
+  -moz-filter: grayscale($value);
+  -o-filter: grayscale($value);
+  -ms-filter: grayscale($value);
+  filter: grayscale($value);
+  @include transition(.3s);
+}
+
+@mixin border-radius($value: 3px) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin border-inside($color, $width) {
+  -webkit-box-shadow:inset 0 0 0 $width $color;
+  -moz-box-shadow:inset 0 0 0 $width $color;
+  box-shadow:inset 0 0 0 $width $color;
+}
+
+@mixin opacity($opacity: 0.5) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin gradient($start: #EEE, $stop: #FFF) {
+  background: $start;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, $start), color-stop(1, $stop));
+  background: -ms-linear-gradient(bottom, $start, $stop);
+  background: -moz-linear-gradient(center bottom, $start 0%, $stop 100%);
+  background: -o-linear-gradient($stop, $start);
+  filter: (%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",$stop,$start));
+}
+
+@mixin drop-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $alpha: 0.1, $r:0, $g:0, $b:0) {
+  -webkit-box-shadow: $x-axis $y-axis $blur rgba($r, $g, $b, $alpha);
+  -moz-box-shadow: $x-axis $y-axis $blur rgba($r, $g, $b, $alpha);
+  box-shadow: $x-axis $y-axis $blur rgba($r, $g, $b, $alpha);
+}
+
+@mixin transition($duration:0.2s, $ease:ease-out) {
+  -webkit-transition: all $duration $ease;
+  -moz-transition: all $duration $ease;
+  -o-transition: all $duration $ease;
+  transition: all $duration $ease;
+}
+
+@mixin transition-duration($duration: 0.2s) {
+  -moz-transition-duration: $duration;
+  -webkit-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+}
+
+@mixin transform($arguments) {
+  -webkit-transform: $arguments;
+  -moz-transform: $arguments;
+  -o-transform: $arguments;
+  -ms-transform: $arguments;
+  transform: $arguments;
+}
+
+@mixin rotation($deg:5deg){
+  @include transform(rotate($deg));
+}
+
+@mixin transform-origin($arg){
+  -webkit-transform-origin: $arg;
+  -moz-transform-origin: $arg;
+  transform-origin: $arg;
+}
+
+@mixin scale($ratio:1.5){
+  @include transform(scale($ratio));
+}
+
+@mixin inner-shadow($horizontal:0, $vertical:1px, $blur:2px, $alpha: 0.4) {
+  -webkit-box-shadow: inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+  -moz-box-shadow: inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+  box-shadow: inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+}
+
+@mixin box-shadow($arguments) {
+  -webkit-box-shadow: $arguments;
+  -moz-box-shadow: $arguments;
+  box-shadow: $arguments;
+}
+
+@mixin box-sizing($sizing: border-box) {
+  -ms-box-sizing: $sizing;
+  -moz-box-sizing: $sizing;
+  -webkit-box-sizing: $sizing;
+  box-sizing: $sizing;
+}
+
+@mixin user-select($argument: none) {
+  -webkit-user-select: $argument;
+  -moz-user-select: $argument;
+  -ms-user-select: $argument;
+  user-select: $argument;
+}
+
+@mixin translate($x:0, $y:0) {
+  @include transform(translate($x, $y));
+}
+
+@mixin background-clip($argument: padding-box) {
+  -moz-background-clip: $argument;
+  -webkit-background-clip: $argument;
+  background-clip: $argument;
+}
+
+@mixin page-lg {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin page-md {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin page-sm {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin page-sm {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+// =============================================================================
+// String Replace
+// =============================================================================
+
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+          eot: "?",
+          svg: "#" + str-replace($name, " ", "_")
+  );
+
+  $formats: (
+          otf: "opentype",
+          ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}

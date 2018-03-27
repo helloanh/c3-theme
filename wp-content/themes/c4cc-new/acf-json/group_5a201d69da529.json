@@ -1,0 +1,85 @@
+{
+    "key": "group_5a201d69da529",
+    "title": "Hub Post",
+    "fields": [
+        {
+            "key": "field_5a201d7326b90",
+            "label": "Featured Story",
+            "name": "featured_story",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show this post in the featured area",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a201da71c546",
+            "label": "link_to_video",
+            "name": "link_to_video",
+            "type": "text",
+            "instructions": "Supported links: YouTube, Vimeo\r\nlink_to_video",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5aa8206616ec0",
+            "label": "media_oembed",
+            "name": "media_oembed",
+            "type": "oembed",
+            "instructions": "Embed videos, images, tweets, audio shortcode here.  Most major content platforms are supported.  Shortlist: Youtube, Vimeo, Facebook, Twitter, Instagram, SoundCloud. View full list here: https:\/\/codex.wordpress.org\/Embeds",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "changewire"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1520968588
+}

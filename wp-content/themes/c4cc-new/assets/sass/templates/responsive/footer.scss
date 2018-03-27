@@ -1,0 +1,59 @@
+footer .footer .container .footer-right-bloc {
+    padding: 3em 3.75em 3.5em 3.6em;
+    background: #144d7d;
+}
+
+
+@media (max-width: 550px) {
+  #join-us {
+    .join-us-actions {
+      .container .row > div {
+        padding: 0;
+      }
+      .jua-btn {
+        width: 100px;
+        height: 100px;
+        padding: 35px 10px;
+        font-size: 14px;
+        &.align-two-lines {
+          padding-top: 30px;
+        }
+      }
+      .join-us-form {
+        padding: 1.125em 0 2.75em;
+      }
+    }
+  }
+  footer {
+    .footer {
+      .container {
+        .footer-right-bloc {
+          height: auto;
+        }
+        .footer-left-bloc {
+          ul {
+            li {
+              font-size: $small-size;
+            }
+          }
+        }
+      }
+    }
+    .under-footer .container {
+      .logos {
+        padding-right: 15px;
+      }
+      .links {
+        padding-left: 15px;
+        font-size:$small-size;
+      }
+      .logos ul, .links ul {
+        padding: 0;
+        text-align: left;
+        li {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

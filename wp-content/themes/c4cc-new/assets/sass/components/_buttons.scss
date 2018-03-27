@@ -1,0 +1,113 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  background-color: #ccc;
+  color: #222;
+  text-shadow: none!important;
+  box-shadow: none!important;
+  height: 40px;
+
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  text-align: center;
+
+  margin: 3px;
+  padding: 0 20px;
+
+  border: none;
+  cursor: pointer;
+
+  @include border-radius(4px);
+  @include transition();
+
+  &:hover, &:focus {
+    background-color: #333;
+    color: #fff;
+  }
+
+  &.btn-default {
+    background-color: #fff;
+    color: #222;
+    &:hover, &:focus {
+      background-color: #f9f9f9;
+      color: #000;
+    }
+  }
+
+  &.btn-primary {
+    background-color: #f9f9f9;
+    border: 1px #f1f1f1 solid;
+    color: #222;
+    &:hover, &:focus {
+      background-color: #f1f1f1;
+    }
+  }
+
+  &.btn-complete {
+    background-color: $complete;
+    color: #fff;
+    &:hover, &:focus {
+      background-color: $complete_lighter;
+    }
+  }
+
+  &.btn-success {
+    background-color: $success;
+    color: #fff;
+    &:hover, &:focus {
+      background-color: $success_lighter;
+    }
+  }
+
+  &.btn-warning {
+    background-color: $warning;
+    color: #fff;
+    &:hover, &:focus {
+      background-color: $warning_lighter;
+    }
+  }
+
+  &.btn-danger {
+    background-color: $danger;
+    color: #fff;
+    &:hover, &:focus {
+      background-color: $danger_lighter;
+    }
+  }
+
+  &.btn-floated {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    padding: 0;
+    width: 56px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 56px;
+    z-index: 9999;
+    @include border-radius(50%);
+  }
+
+  &.btn-icon {
+    padding: 0 15px 0 35px;
+    text-align: left;
+    line-height: 42px;
+    > i {
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 25px;
+      font-size: 10px;
+      height: 40px;
+      line-height: 43px;
+      text-align: right;
+    }
+  }
+}
+
+.btn-icon i:before{
+  font-size: 1.3em!important;
+}
+

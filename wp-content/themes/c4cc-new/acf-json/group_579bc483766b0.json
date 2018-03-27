@@ -1,0 +1,82 @@
+{
+    "key": "group_579bc483766b0",
+    "title": "Spirit of the Awards",
+    "fields": [
+        {
+            "key": "field_517714bedeb46",
+            "label": "Explanation",
+            "name": "explanation",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "full",
+            "media_upload": 0,
+            "tabs": "all"
+        },
+        {
+            "key": "field_517714dadeb47",
+            "label": "Recognitions",
+            "name": "recognitions",
+            "type": "wysiwyg",
+            "instructions": "Format recognitions as a list.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "full",
+            "media_upload": 0,
+            "tabs": "all"
+        },
+        {
+            "key": "field_51771521deb48",
+            "label": "Invitation",
+            "name": "invitation",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "toolbar": "full",
+            "media_upload": 0,
+            "tabs": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "1829"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "custom_fields"
+    ],
+    "active": 1,
+    "description": "",
+    "local": "php",
+    "modified": 1507134483
+}

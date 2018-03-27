@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+        "symfony/var-dumper": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CCC\\": "src/CCC/"
+        }
+    },
+    "require": {
+        "symfony/yaml": "^3.3",
+        "embed/embed": "^3.2"
+    }
+}

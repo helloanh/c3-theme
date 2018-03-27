@@ -1,0 +1,53 @@
+@media (max-width: 992px) {
+  input[type="text"], input[type="password"], 
+  input[type="emailc"], input[type="submit"] {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+ #home {
+    .home-caption {
+      h1 { font-size: 1.775em; }
+    }
+  }
+
+  .navbar-default .container, 
+  .navbar-collapse ul li a {
+      font-size: 20px
+  }
+  
+  #menu-item-6665 {
+    a {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 567px) { 
+  #home {
+    .home-caption {
+      h1 { font-size: 1.705em; }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #home {
+    .home-caption {
+      h1 {
+        font-size: 1.575em;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #home {
+    .home-caption {
+      h1 {
+        font-size: 1.35em;
+      }
+    }
+  }
+}

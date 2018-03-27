@@ -1,0 +1,46 @@
+{
+    "key": "group_579bc47fb587f-2",
+    "title": "Section Navigation",
+    "fields": [
+        {
+            "key": "field_52279e1a313b0",
+            "label": "Select a Section Nav Menu",
+            "name": "section_nav",
+            "type": "nav_menu",
+            "instructions": "Displays to the right of the page title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "save_format": "id",
+            "container": "div",
+            "allow_null": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "default"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1512410928
+}

@@ -1,0 +1,66 @@
+#anniv-home {
+	min-height: 70vh;
+	padding-top: 70px !important;
+	background: url(https://communitychange.org/wp-content/uploads/2018/01/50-crowd-banner-dark.png) no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	#ccc-anniv-logo {
+		margin: 2em 16em 0 16em;
+	}
+}
+
+#anniv-about {
+    padding: 50px 0 30px 0;
+}
+
+#join-us-anniv {
+	.join-us-form {
+		h2 {
+			color: #2A2A21;
+			margin-bottom: 20px;
+		}
+	}
+	.anniv-join-us-form {
+		padding: 30px 0;
+    	background: #FFDD0F;
+    	h2 {
+    		color: #2a2a21;
+    	}
+
+    	input[type="submit"].sb-grey {
+    	    background-color: #2A2A21;
+    	    border-color: #2A2A21;
+    	    color: white;
+    	    border: 0;
+    	    padding: 0.5em 3.275em;
+    	    text-transform: uppercase;
+    	    width: 100%;
+    	}
+	}
+
+	.join-us-actions {
+		    background: url(https://communitychange.org/wp-content/uploads/2018/01/50-crowd-banner.png) no-repeat;
+    		background-size: cover;
+    		padding: 50px 0;
+		.jua-btn {
+		    -webkit-border-radius: 50%;
+		    -moz-border-radius: 50%;
+		    border-radius: 50%;
+		    background-color: rgba(0,0,0,0.5);
+		    display: inline-block;
+		    width: 150px;
+		    height: 150px;
+		    padding: 57px 20px;
+		    text-align: center;
+		    border: 5px #fff solid;
+		    font-size: 1.15em;
+		    font-family: SourceSansProSemibold;
+		    color: #fff;
+		}
+	}
+}
+

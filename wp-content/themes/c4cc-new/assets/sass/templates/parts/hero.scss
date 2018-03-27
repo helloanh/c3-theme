@@ -1,0 +1,21 @@
+#home {
+  min-height: 100vh;
+  margin-top: -35px;
+  @include background-size-with-image('../images/homepage_landing_01-fist.png');
+  .home-caption {
+    h1 { font-family: $base-bold-font; }
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 60px;
+    border-top: 3px #fff solid;
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    width: 65%;
+    color: #fff;
+    p {
+      font-family: $base-light-font;
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+}

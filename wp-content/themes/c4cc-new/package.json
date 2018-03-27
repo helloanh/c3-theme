@@ -1,0 +1,29 @@
+{
+  "name": "c4cc-2017",
+  "version": "1.0.0",
+  "description": "New theme for CCC Site at communitychange.org",
+  "main": "index.js",
+  "dependencies": {
+    "composer": "^0.14.2"
+  },
+  "devDependencies": {
+    "ampify": "^0.2.6",
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "private": true
+  }
+}

@@ -1,0 +1,21 @@
+.pane-section {
+  //min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  padding: 0;
+  clear: both;
+  .pane-menu {
+    &.pane-left {
+      float: left;
+    }
+    &.pane-right {
+      float: right;
+    }
+  }
+  .pane-content {
+   // min-height: 100vh;
+    .tab-pane {
+      //min-height: 100vh;
+    }
+  }
+}

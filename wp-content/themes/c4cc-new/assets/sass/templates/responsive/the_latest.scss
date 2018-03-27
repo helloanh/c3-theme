@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+	#single-post {
+		.post-image {
+	    	.post-image-container {
+	    		background: no-repeat;
+	    		background-size: cover;
+	    		background-position: center;
+	    	}
+	    }
+	}
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 567px) {
+    #the-latest {
+        .container {
+            padding: 0 30px 30px 30px;
+        }
+    }
+}

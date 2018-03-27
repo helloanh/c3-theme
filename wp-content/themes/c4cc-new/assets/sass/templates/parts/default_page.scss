@@ -1,0 +1,19 @@
+section.section-default-page {
+	color: $legacy-black;
+	padding-top: 5em;
+	h1 {
+		color: $legacy-fade-green;
+		font-family: $base-light-font;
+	}
+	#primary {
+		padding-top: 70px;
+		h1 { color: $legacy-black; }
+		.entry-content {
+			.intro {
+				padding-top: 50px;
+			}
+
+
+		}
+	}
+}

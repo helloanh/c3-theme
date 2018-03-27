@@ -1,0 +1,77 @@
+{
+    "key": "group_5a66309c38fa7",
+    "title": "Org Tax Code",
+    "fields": [
+        {
+            "key": "field_5a6630a4512b8",
+            "label": "c3c4_checkbox",
+            "name": "c3c4_checkbox",
+            "type": "radio",
+            "instructions": "Select which organization\/tax code this content falls under.  C3 is for communitychange while C4 is for cccaction",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "c3": "C3 - 501(c)3",
+                "c4": "C4 - 501(c)4",
+                "both": "Both"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "changewire"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "resource"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "campaign"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "thelatest"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1517869557
+}

@@ -1,0 +1,111 @@
+{
+    "key": "group_5a201c4dee42e",
+    "title": "Campaign - Single Page Fields",
+    "fields": [
+        {
+            "key": "field_5a201c5f5c3dd",
+            "label": "campaign-single-page-logo",
+            "name": "campaign-single-page-logo",
+            "type": "image",
+            "instructions": "upload logo image of campaign here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5a201c985c3de",
+            "label": "campaign-single-page-read-more-btn",
+            "name": "campaign-single-page-read-more-btn",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [],
+            "taxonomy": [],
+            "allow_null": 0,
+            "allow_archives": 1,
+            "multiple": 0
+        },
+        {
+            "key": "field_5a201cbc5c3df",
+            "label": "campaign-single-intro-description",
+            "name": "campaign-single-intro-description",
+            "type": "wysiwyg",
+            "instructions": "write 2-3 paragraph description here",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5a201ce35c3e0",
+            "label": "campaign-single-page-skinny-background-img",
+            "name": "campaign-single-page-skinny-background-img",
+            "type": "image",
+            "instructions": "upload skinny header image for campaign single page here. just make default to theme color blue.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "campaign"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "local": "php",
+    "modified": 1512075807
+}

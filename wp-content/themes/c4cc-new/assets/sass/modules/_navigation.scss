@@ -1,0 +1,85 @@
+$menuBg: rgba(255, 255, 255, .7);
+$menuColor: $ccc-blue;
+$menuHoverColor: $ccc-orange;
+
+.navbar-brand {
+  display: block;
+  padding: 0;
+  img {
+    height: 50px;
+  }
+}
+
+.navbar-default {
+  margin: 0;
+  border: none;
+  background: $menuBg;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+  @include border-radius(0);
+
+  .navbar-nav > .active > a, 
+  .navbar-nav > .active > a:hover {
+    color: $ccc-blue;
+    background-color: transparent;
+  }
+  .container {
+    width: 100%;
+    padding: 0;
+    .navbar-brand {
+      margin: 0;
+    }
+    ul {
+      list-style: none;
+      li {
+        display: inline;
+        .dropdown-menu {
+          font-family: SourceSansProLight;
+          font-size: 12px;
+          color: $legacy-light-grey;
+          border-radius: 0px;
+          background: rgba(255, 255, 255, 0.8);       
+        }
+        a {
+          font-size: 14px;
+          font-family: SourceSansProSemiBold;
+          display: block;
+          padding: 0 15px;
+          height: 50px;
+          line-height: 50px;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: $menuColor;
+          font-size: 12px;
+          &:hover, &:focus {
+            color: $menuHoverColor;
+          }
+          .caret {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+#menu-item-6665 a {
+  background-color: $ccc-orange;
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+  color: #f4ece2;
+  &:hover, &:focus {
+    background-color: $ccc-blue;
+  }
+}
+
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+    color: $ccc-blue;
+    background-color: transparent;
+}

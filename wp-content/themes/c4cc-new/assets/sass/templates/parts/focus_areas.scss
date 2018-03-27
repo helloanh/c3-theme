@@ -1,0 +1,33 @@
+#focus-areas {
+    a { color: #fff;
+    }
+    padding-top: 50px;
+    min-height: unset;
+    .pane-menu {
+        padding-right: 40px;
+        color: $legacy-black;
+    }
+    .pane-content {
+        min-height: unset;
+        .focus-area {
+            height: 250px;
+            line-height: 250px;
+            margin-top: -49px;
+            @include opacity(.8);
+            @include background-size();
+            h3 {
+                border-bottom: 5px transparent solid;
+                font-size: 2.15em;
+                margin-left: 25%;
+                margin-bottom: 0px;
+                padding-top: 100px;
+            }
+            &:hover {
+                @include opacity(1);
+                h3 {
+                    border-color: $ccc-orange;
+                }
+            }
+        }
+    }
+}

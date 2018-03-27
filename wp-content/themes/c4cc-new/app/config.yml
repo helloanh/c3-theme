@@ -1,0 +1,43 @@
+Impact:
+    our_work_impact_bloc1_title: our_work_impact_bloc1_text
+    our_work_impact_bloc2_title: our_work_impact_bloc2_text
+    our_work_impact_bloc3_title: our_work_impact_bloc3_text
+    our_work_impact_bloc4_title: our_work_impact_bloc4_text
+Mission:
+    - 1
+    - 2
+    - 3
+    - 4
+Model:
+    0:
+        title: our_work_model_bloc1_title
+        icon: connect.png
+        text: our_work_model_bloc1_text
+    1:
+        title: our_work_model_bloc2_title
+        icon: organize.png
+        text: our_work_model_bloc2_text
+    2:
+        title: our_work_model_bloc3_title
+        icon: build.png
+        text: our_work_model_bloc3_text
+    3:
+        title: our_work_model_bloc4_title
+        icon: amplify.png
+        text: our_work_model_bloc4_text
+FocusAreas:
+    0:
+        title: title_block1
+        background: background_block1
+        text: text_block1
+        url: url_block1
+    1:
+        title: title_block2
+        background: background_block2
+        text: text_block2
+        url: url_block2
+    2:
+        title: title_block3
+        background: background_block3
+        text: text_block3
+        url: url_block3

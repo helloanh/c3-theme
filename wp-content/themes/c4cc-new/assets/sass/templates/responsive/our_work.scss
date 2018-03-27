@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+  #our-work { 
+    padding-top: 3.15em;
+  }
+  #our-work, #focus-areas {
+    .pane-menu {
+      width: 25%;
+      padding-left: 30px;
+    }
+    .pane-content {
+      width: 75%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #our-work, #focus-areas {
+    .pane-menu {
+      width: 20%;
+    }
+    .pane-content {
+      width: 80%;
+      .tab-pane {
+        padding: 50px;
+      }
+      #our-work-mission .bloc-container .bloc {
+        width: 130px;
+        height: 130px;
+        padding-top: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #our-work, #focus-areas {
+    > div {
+      position: relative;
+      top: auto;
+    }
+    .pane-menu {
+      width: 100%;
+      padding: 0 20px;
+      h2 {
+        float: left;
+        margin: 0;
+        height: 2.725em;
+        line-height: 3.125em;
+      }
+      ul {
+        float: right;
+        li {
+          display: inline-block;
+          margin-left: 20px;
+          a {
+            height: 3.125em;
+            line-height: 3.125em;
+            padding: 0;
+          }
+        }
+      }
+    }
+    .pane-content {
+      //top: 50px;
+      clear: both;
+      width: 100%;
+      margin-left: 0;
+      #our-work-mission .bloc-container {
+        margin-top: 30px;
+        .bloc {
+          width: 170px;
+          height: 170px;
+          padding-top: 70px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  #focus-areas {
+    .pane-menu {
+      padding: 0 30px 30px 30px;
+      h2 {
+        float: none;
+      }
+    }
+    .pane-content .focus-area {
+      height: 100px;
+      h3 {
+        border-bottom: none;
+        font-size: $default-h3-size;
+        margin-left: 0;
+        text-align: center;
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  #our-work, #focus-areas {
+    .pane-menu {
+      ul {
+        float: right;
+        li {
+          margin-left: 8px;
+          a {
+            font-size: 14px!important;
+          }
+        }
+      }
+    }
+    .pane-content {
+      #our-work-mission {
+        .bloc-container {
+          width: 100%!important;
+          .bloc {
+            width: 170px;
+            height: 170px;
+            padding-top: 70px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+    #focus-areas{
+        .pane-menu{
+            h2{
+                text-align:center;
+            }   
+        }
+        .pane-content{
+            .focus-area{
+                margin-top:-40px;
+            }
+        }
+    } 
+}
